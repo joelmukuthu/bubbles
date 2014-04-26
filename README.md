@@ -1,5 +1,5 @@
 # bubbles
-> a simple web-based multiplayer game built with [Node JS](http://nodejs.org/) and web sockets (using [socket.io](http://socket.io/ "socket.io")).
+> a simple web-based multiplayer game built with [Node JS](http://nodejs.org/), [Express](http://expressjs.com/) and web sockets (using [socket.io](http://socket.io/ "socket.io")).
 
 Once you join the game, you get a bubble (an orange actually) which has you name on it. You can move the bubble around within the arena and you can also pin and unpin it by clicking on it.
 

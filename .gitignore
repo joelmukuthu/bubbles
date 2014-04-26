@@ -1,0 +1,2 @@
+# with npm-shrinkwrap local dependencies are not really necessary
+/node_modules

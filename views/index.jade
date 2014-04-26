@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	if !nickname
+		p To join the game, please provide a nickname
+		form(action='', method='get')
+			input(type='text', name='nickname', placeholder='Nickname')
+			input(type='submit', value='Join!')
+	else
+		p(style='text-align:center') Welcome to the arena! Within the grey area, you can move your bubble around and click it to pin or unpin it from it's curent position. To leave the game, just close your browser tab/window.
+		#arena
+		script(type='text/javascript')
+			var globals = {
+				ball: '#{ball}',
+				name: '#{nickname}'
+			};
+		if playMode == 'delayed'
+			script(type='text/javascript', src='/javascripts/main.delayed.js')
+		else
+			script(type='text/javascript', src='/javascripts/main.js')
+

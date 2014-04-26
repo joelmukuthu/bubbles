@@ -1,0 +1,34 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+#arena {
+  width: 800px;
+  height: 640px;
+  margin: 20px auto;
+  position: relative;
+  background: #ececec;
+}
+.ball {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: grey;
+  width: 132px;
+  height: 120px;
+  display: none;
+  cursor: default;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+  padding-top: 22px;
+  font-style: italic;
+  position: absolute;
+  text-transform: lowercase;
+  background: url('../images/ball.png') no-repeat 0 0;
+}
+.ball.pinned {
+  background-image: url('../images/ball2.png');
+}

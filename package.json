@@ -1,7 +1,7 @@
 {
   "name": "bubbles",
   "description": "Simple web-based multiplayer game built with Node JS, Express and web sockets (using socket.io)",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node app"

@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "bubbles",
   "version": "0.0.1",
   "dependencies": {
     "express": {

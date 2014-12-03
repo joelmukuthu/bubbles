@@ -17,7 +17,3 @@ Once you join the game, you get a bubble (an orange actually) which has you name
 ## License
 
 [The MIT License](LICENSE.md)
-
-## Btw
-
-This is not a real game, it's not ready for a production environment.

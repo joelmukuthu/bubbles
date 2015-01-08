@@ -138,6 +138,9 @@ $(document).ready(function() {
 			var ball = getBall(data.id),
 				index = 0;
 			function play() {
+				if (index >= data.offsets.length) {
+					return;
+				}
 				ball.css({
 					top: data.offsets[index].top,
 					left: data.offsets[index].left
